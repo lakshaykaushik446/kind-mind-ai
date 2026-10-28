@@ -1,0 +1,50 @@
+.disclaimer-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fffbeb;
+  border-top: 1px solid #f6e05e;
+  z-index: 200;
+  padding: 10px 16px;
+}
+
+.disclaimer-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.disclaimer-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.disclaimer-inner p {
+  font-size: 13px;
+  color: #744210;
+  flex: 1;
+  line-height: 1.5;
+}
+
+.disclaimer-inner a {
+  color: #744210;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.disclaimer-dismiss {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #a0522d;
+  cursor: pointer;
+  padding: 4px;
+  flex-shrink: 0;
+}
+.disclaimer-dismiss:hover { color: #744210; }
+
+/* Add bottom padding to the page so content isn't hidden behind the banner */
+body { padding-bottom: 56px; }

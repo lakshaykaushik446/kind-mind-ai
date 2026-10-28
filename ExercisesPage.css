@@ -1,0 +1,161 @@
+.exercises-section-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--color-text);
+}
+
+.exercises-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.exercise-card h3 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.exercise-card p {
+  font-size: 13.5px;
+  color: var(--color-text-muted);
+  margin-bottom: 12px;
+  line-height: 1.55;
+}
+
+.exercise-meta {
+  font-size: 12px;
+  color: var(--color-primary);
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+/* Active exercise */
+.exercises-active {
+  max-width: 480px;
+}
+
+.exercises-back {
+  margin-bottom: 24px;
+}
+
+/* Breathing Timer */
+.breathing-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 32px 24px;
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow);
+}
+
+.breathing-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.breathing-cycle {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.breathing-circle-container {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.breathing-circle-label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.breathing-step-label {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.breathing-seconds {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--color-text);
+}
+
+.breathing-done {
+  text-align: center;
+  padding: 40px 24px;
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+}
+
+.breathing-done-icon { font-size: 48px; margin-bottom: 12px; }
+.breathing-done h3 { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+.breathing-done p { color: var(--color-text-muted); margin-bottom: 20px; }
+
+/* Grounding Guide */
+.grounding-guide {
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.grounding-exercise-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.grounding-step {
+  background: var(--color-primary-light);
+  border-radius: var(--radius-sm);
+  padding: 20px 24px;
+  text-align: center;
+}
+
+.grounding-step-num {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.grounding-step-prompt {
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.grounding-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.grounding-tip {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  text-align: center;
+  padding: 0 8px;
+}

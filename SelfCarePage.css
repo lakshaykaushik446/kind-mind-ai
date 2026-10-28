@@ -1,0 +1,101 @@
+.selfcare-progress-banner {
+  background: #f0fff4;
+  border: 1px solid #68d391;
+  border-radius: var(--radius-sm);
+  padding: 12px 18px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #276749;
+}
+
+.selfcare-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.selfcare-tab {
+  padding: 7px 16px;
+  border-radius: 999px;
+  border: 1.5px solid var(--color-border);
+  background: var(--color-surface);
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.selfcare-tab:hover { border-color: var(--color-primary); color: var(--color-primary); }
+.selfcare-tab--active { border-color: var(--color-primary); color: var(--color-primary); background: var(--color-primary-light); }
+
+.selfcare-category {
+  margin-bottom: 32px;
+}
+
+.selfcare-cat-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.selfcare-tips-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.selfcare-tip {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 18px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.selfcare-tip:hover { border-color: var(--color-primary); background: var(--color-primary-light); }
+.selfcare-tip--done { opacity: 0.6; }
+.selfcare-tip--done .selfcare-tip-title { text-decoration: line-through; }
+
+.selfcare-tip-check {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: #fff;
+  flex-shrink: 0;
+  margin-top: 1px;
+  transition: all 0.15s;
+}
+
+.selfcare-tip-content { flex: 1; }
+
+.selfcare-tip-title {
+  font-size: 14.5px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.selfcare-tip-desc {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+.selfcare-crisis {
+  margin-top: 12px;
+  margin-bottom: 40px;
+  font-size: 13.5px;
+  color: var(--color-text-muted);
+  padding: 14px 18px;
+  background: #fff7ed;
+  border-radius: var(--radius-sm);
+  border: 1px solid #fbd38d;
+}
